@@ -86,8 +86,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // ===== RENDER PRODUCT CARD =====
   function renderProductCard(product) {
-    var priceNoteHtml = product.priceNote
-      ? '<div class="product-price-note">' + product.priceNote + '</div>'
+    var tiers = getProductTiers(product);
+    var tiersHtml = '<div class="product-tiers">';
+    tiers.forEach(function(tier) {
+      tiersHtml += '<div class="tier-row"><span class="tier-weight">' + tier[0] + '</span><span class="tier-price">$' + tier[1] + '</span></div>';
+    });
+    tiersHtml += '</div>';
+
+    var oldPriceHtml = product.oldPrice
+      ? '<div class="product-old-price"><s>$' + product.oldPrice + '</s></div>'
       : '';
 
     return '<div class="product-card">' +
@@ -96,8 +103,8 @@ document.addEventListener('DOMContentLoaded', function() {
       '</div>' +
       '<div class="product-info">' +
         '<div class="product-name">' + product.name + '</div>' +
-        '<div class="product-price">$' + product.price + ' <span class="unit">/ ' + product.unit + '</span></div>' +
-        priceNoteHtml +
+        oldPriceHtml +
+        tiersHtml +
       '</div>' +
     '</div>';
   }
