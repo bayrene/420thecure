@@ -162,6 +162,13 @@ const PRODUCTS = [
   { name: "Devour Watermelon Sour Rings 1500mg THC", price: 25, category: "edibles", image: "images/products/devour-watermelon-rings.jpg", tiers: [["EA",25]] },
   { name: "Devour Watermelon Slices 1500mg THC", price: 25, category: "edibles", image: "images/products/devour-watermelon-slices.jpg", tiers: [["EA",25]] },
   { name: "The Cookie Factory Blackout Brownie 1000mg THC", price: 30, category: "edibles", image: "images/products/tcf-blackout-brownie.jpg", tiers: [["EA",30]] },
+  { name: "Devour Live Rosin Gummies 3000mg THC - Watermelon Lime", price: 40, category: "edibles", image: "images/products/devour-live-rosin.jpeg", badge: "latest", tiers: [["EA",40],["3 for",100]] },
+  { name: "Devour Live Rosin Gummies 3000mg THC - Strawberry Blueberry", price: 40, category: "edibles", image: "images/products/devour-live-rosin.jpeg", badge: "latest", tiers: [["EA",40],["3 for",100]] },
+  { name: "Devour Sour Lasso 1500mg THC - Watermelon", price: 25, category: "edibles", image: "images/products/devour-sour-lasso.jpeg", badge: "latest", tiers: [["EA",25]] },
+  { name: "Devour Sour Lasso 1500mg THC - Strawberry", price: 25, category: "edibles", image: "images/products/devour-sour-lasso.jpeg", badge: "latest", tiers: [["EA",25]] },
+  { name: "Devour Sour Mango 1500mg THC", price: 25, category: "edibles", image: "images/products/devour-sour-mango.jpeg", badge: "latest", tiers: [["EA",25]] },
+  { name: "Devour Sour Rings 750mg THC - Watermelon", price: 20, category: "edibles", image: "images/products/devour-sour-rings.jpeg", badge: "latest", tiers: [["EA",20]] },
+  { name: "Devour Sour Rings 750mg THC - Apple", price: 20, category: "edibles", image: "images/products/devour-sour-rings.jpeg", badge: "latest", tiers: [["EA",20]] },
 
   // ===== WAX =====
   { name: "GB Extract Syringe - Pineapple Express", price: 20, category: "wax", image: "images/products/gb-syringe.jpg", tiers: [["1G",20]] },
