@@ -154,9 +154,7 @@ const PRODUCTS = [
 
   // ===== EDIBLES =====
   { name: "TCF Canna Butter Unsalted 1000mg THC", price: 30, category: "edibles", image: "images/products/tcf-canna-butter.jpeg", tiers: [["EA",30]] },
-  { name: "Devour Pink Lemonade Sour Rings 1500mg THC", price: 25, category: "edibles", image: "images/products/devour-pink-lemonade.jpeg", tiers: [["EA",25]] },
   { name: "TCF Space Brownie 1000mg THC", price: 30, category: "edibles", image: "images/products/tcf-space-brownie.jpg", tiers: [["EA",30]] },
-  { name: "Devour Sweet Villains 1500mg THC", price: 25, category: "edibles", image: "images/products/devour-sweet-villains.jpg", tiers: [["EA",25]] },
   { name: "Devour High Crawlers Sour Worms 1500mg THC", price: 25, category: "edibles", image: "images/products/devour-high-crawlers.jpg", tiers: [["EA",25]] },
   { name: "Devour Sour Apple Rings 1500mg THC", price: 25, category: "edibles", image: "images/products/devour-sour-apple.jpg", tiers: [["EA",25]] },
   { name: "Devour Watermelon Sour Rings 1500mg THC", price: 25, category: "edibles", image: "images/products/devour-watermelon-rings.jpg", tiers: [["EA",25]] },
