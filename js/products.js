@@ -60,6 +60,8 @@ const PRODUCTS = [
     tiers: [["1G",10],["3.5G",30],["5G",35],["10G",55],["14G",65],["OZ",100]] },
 
   // ===== SATIVA =====
+  { name: "Purp Fuel", price: 250, category: "sativa", image: "images/products/purp-fuel.jpeg", badge: "latest",
+    tiers: [["1G",20],["3.5G",50],["5G",65],["7G",85],["10G",120],["14G",150],["OZ",250]] },
   { name: "Candyland", price: 80, category: "sativa", image: "images/products/candyland.jpeg", badge: "latest",
     tiers: [["1G",10],["3.5G",20],["5G",25],["7G",35],["10G",45],["14G",60],["OZ",80]] },
   { name: "Moose and Lobster", price: 100, category: "sativa", image: "images/products/moose-and-lobster.jpeg", badge: "latest",
@@ -92,6 +94,8 @@ const PRODUCTS = [
     tiers: [["3.5G",45]] },
 
   // ===== HYBRID =====
+  { name: "Trop Cherry", price: 250, category: "hybrid", image: "images/products/trop-cherry.jpeg", badge: "latest",
+    tiers: [["1G",20],["3.5G",50],["5G",65],["7G",85],["10G",120],["14G",150],["OZ",250]] },
   { name: "Blueberry Cookies", price: 220, category: "hybrid", image: "images/products/blueberry-cookies.jpeg", badge: "latest",
     tiers: [["1G",15],["3.5G",35],["5G",45],["7G",65],["10G",85],["14G",120],["OZ",220]] },
   { name: "John Gotti OG", price: 180, category: "hybrid", image: "images/products/John-gotta-og.jpeg", badge: "latest",
