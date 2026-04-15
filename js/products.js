@@ -1,5 +1,7 @@
 const PRODUCTS = [
   // ===== INDICA =====
+  { name: "Lights Out OG", price: 150, category: "indica", image: "images/products/lights-out-og.jpeg", badge: "latest",
+    tiers: [["1G",12],["3.5G",30],["5G",35],["7G",50],["10G",65],["14G",80],["OZ",150]] },
   { name: "Dante's Inferno Smalls", price: 80, category: "indica", image: "images/products/dantes-inferno-smalls.jpeg", badge: "popular",
     tiers: [["1G",10],["3.5G",20],["5G",25],["7G",35],["10G",45],["14G",60],["OZ",80]] },
   { name: "Syndicate", price: 200, category: "indica", image: "images/products/syndicate.jpeg",
@@ -86,6 +88,8 @@ const PRODUCTS = [
     tiers: [["3.5G",45]] },
 
   // ===== HYBRID =====
+  { name: "KnockOut OG", price: 150, category: "hybrid", image: "images/products/knockout-og.jpeg", badge: "latest",
+    tiers: [["1G",12],["3.5G",30],["5G",35],["7G",50],["10G",65],["14G",80],["OZ",150]] },
   { name: "Bangers and Mac Smalls", price: 85, category: "hybrid", image: "images/products/bangers-and-mac-smalls.jpg", badge: "latest",
     tiers: [["1G",10],["3.5G",20],["5G",25],["7G",35],["14G",60],["OZ",85]] },
   { name: "Cereal Milk", price: 100, category: "hybrid", image: "images/products/cereal-milk.jpeg", badge: "popular",
