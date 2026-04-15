@@ -1,5 +1,7 @@
 const PRODUCTS = [
   // ===== INDICA =====
+  { name: "Midnight Berry", price: 220, category: "indica", image: "images/products/midnight-berry.jpeg", badge: "latest",
+    tiers: [["1G",15],["3.5G",35],["5G",45],["7G",65],["10G",85],["14G",120],["OZ",220]] },
   { name: "Capone Kush", price: 180, category: "indica", image: "images/products/capone-kush.jpeg", badge: "latest",
     tiers: [["1G",15],["3.5G",30],["5G",40],["7G",60],["10G",75],["14G",100],["OZ",180]] },
   { name: "Lights Out OG", price: 150, category: "indica", image: "images/products/lights-out-og.jpeg", badge: "latest",
@@ -90,6 +92,8 @@ const PRODUCTS = [
     tiers: [["3.5G",45]] },
 
   // ===== HYBRID =====
+  { name: "Blueberry Cookies", price: 220, category: "hybrid", image: "images/products/blueberry-cookies.jpeg", badge: "latest",
+    tiers: [["1G",15],["3.5G",35],["5G",45],["7G",65],["10G",85],["14G",120],["OZ",220]] },
   { name: "John Gotti OG", price: 180, category: "hybrid", image: "images/products/John-gotta-og.jpeg", badge: "latest",
     tiers: [["1G",15],["3.5G",30],["5G",40],["7G",60],["10G",75],["14G",100],["OZ",180]] },
   { name: "KnockOut OG", price: 150, category: "hybrid", image: "images/products/knockout-og.jpeg", badge: "latest",
