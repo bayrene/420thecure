@@ -169,6 +169,16 @@ img {
   object-fit: cover;
 }
 
+.carousel-slide--contain {
+  background: #000;
+}
+
+.carousel-slide--contain img {
+  object-fit: contain;
+  max-height: 500px;
+  width: 100%;
+}
+
 .carousel-btn {
   position: absolute;
   top: 50%;
