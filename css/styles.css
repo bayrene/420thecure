@@ -276,6 +276,27 @@ img {
   text-align: center;
 }
 
+.promo-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.promo-image {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.promo-content {
+  flex: 1;
+  min-width: 260px;
+}
+
 .promo-header {
   font-size: 22px;
   font-weight: 900;
