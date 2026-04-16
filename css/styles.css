@@ -251,6 +251,61 @@ img {
   color: #ccc;
 }
 
+/* ===== 420 PROMO BANNER ===== */
+.promo-banner {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a001a 100%);
+  border-top: 3px solid #cc00cc;
+  border-bottom: 3px solid #cc00cc;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.promo-header {
+  font-size: 22px;
+  font-weight: 900;
+  color: #cc00cc;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.promo-tiers {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.promo-tier {
+  background: #111;
+  border: 1px solid #cc00cc;
+  border-radius: 10px;
+  padding: 14px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 200px;
+}
+
+.promo-spend {
+  font-size: 15px;
+  color: #ccc;
+  font-weight: 600;
+}
+
+.promo-reward {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 800;
+}
+
+.promo-fine-print {
+  font-size: 12px;
+  color: #888;
+  margin-top: 6px;
+}
+
 /* ===== PRODUCTS SECTION ===== */
 .products-section {
   padding: 50px 0;
