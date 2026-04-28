@@ -197,6 +197,9 @@ const PRODUCTS = [
   { name: "West Coast Cure Live Resin Badder - Forbidden Haze", price: 30, category: "wax", image: "images/products/wcc-badder.jpg", tiers: [["1G",30]] },
   { name: "Devour GG4 Shatter", price: 25, category: "wax", image: "images/products/devour-shatter.jpg", tiers: [["1G",25],["5G",100]] },
   { name: "Devour Gushers Shatter", price: 25, category: "wax", image: "images/products/devour-shatter.jpg", tiers: [["1G",25],["5G",100]] },
+  { name: "Devour Passion Guava 1G - Sativa", price: 25, category: "wax", image: "images/products/passion-guava.webp", badge: "latest", tiers: [["1G",25]] },
+  { name: "Devour Lemon Cherry Gelato 1G - Hybrid", price: 25, category: "wax", image: "images/products/lemon-cherry-gelato.jpg", badge: "latest", tiers: [["1G",25]] },
+  { name: "Devour Glitter Bomb 1G - Indica", price: 25, category: "wax", image: "images/products/glitter-bomb.webp", badge: "latest", tiers: [["1G",25]] },
   { name: "Stiiizy Syringe - Hardcore OG", price: 40, category: "wax", image: "images/products/stiiizy-syringe.jpg", tiers: [["1G",40]] },
 
   // ===== VAPES =====
