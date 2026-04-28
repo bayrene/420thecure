@@ -164,6 +164,7 @@ const PRODUCTS = [
   { name: "The Cookie Factory Blackout Brownie 1000mg THC", price: 30, category: "edibles", image: "images/products/tcf-blackout-brownie.jpg", tiers: [["EA",30]] },
   { name: "Devour Live Rosin Gummies 3000mg THC - Watermelon Lime", price: 40, category: "edibles", image: "images/products/devour-live-rosin.jpeg", badge: "latest", tiers: [["EA",40],["3 for",100]] },
   { name: "Devour Live Rosin Gummies 3000mg THC - Strawberry Blueberry", price: 40, category: "edibles", image: "images/products/devour-live-rosin.jpeg", badge: "latest", tiers: [["EA",40],["3 for",100]] },
+  { name: "Devour Milk Chocolate 600mg THC", price: 25, category: "edibles", image: "images/products/devour-milk-chocolate.jpg", badge: "latest", tiers: [["EA",25]] },
   { name: "Devour Sour Belts 3000mg THC - Pineapple", price: 30, category: "edibles", image: "images/products/devour-sour-belts.jpeg", badge: "latest", tiers: [["EA",30],["4 for",100]] },
   { name: "Devour Sour Belts 3000mg THC - Mango", price: 30, category: "edibles", image: "images/products/devour-sour-belts.jpeg", badge: "latest", tiers: [["EA",30],["4 for",100]] },
   { name: "Devour Sour Belts 3000mg THC - Green Apple", price: 30, category: "edibles", image: "images/products/devour-sour-belts.jpeg", badge: "latest", tiers: [["EA",30],["4 for",100]] },

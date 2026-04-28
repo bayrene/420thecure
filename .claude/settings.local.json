@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.420thecure.com)",
+      "Bash(printf '\\\\x89PNG\\\\r\\\\n\\\\x1a\\\\n\\\\x00\\\\x00\\\\x00\\\\rIHDR\\\\x00\\\\x00\\\\x00\\\\x01\\\\x00\\\\x00\\\\x00\\\\x01\\\\x08\\\\x02\\\\x00\\\\x00\\\\x00\\\\x90wS\\\\xde\\\\x00\\\\x00\\\\x00\\\\x0cIDATx\\\\x9cc\\\\xf8\\\\x0f\\\\x00\\\\x00\\\\x01\\\\x01\\\\x00\\\\x05\\\\x18\\\\xd8N\\\\x00\\\\x00\\\\x00\\\\x00IEND\\\\xaeB`\\\\x82')",
+      "Bash(bash download-images.sh)",
+      "Bash(git init:*)",
+      "Bash(git remote:*)",
+      "Bash(gh repo:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)",
+      "Bash(git config:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(where gh:*)",
+      "Bash(git pull:*)",
+      "Bash(file *.jpeg *.jpg *.png *.webp)",
+      "WebFetch(domain:420thecure.com)",
+      "Bash(mv \"Devour Live Rosin 3000mg THC Gummies.jpeg\" \"devour-live-rosin.jpeg\")",
+      "Bash(mv \"Devour Sour Lasso 1500mg THC.jpeg\" \"devour-sour-lasso.jpeg\")",
+      "Bash(mv \"Devour Sour Mango 1500m.jpeg\" \"devour-sour-mango.jpeg\")",
+      "Bash(mv \"Devour Sour Rings 750mg.jpeg\" \"devour-sour-rings.jpeg\")"
+    ]
+  }
+}
